@@ -1,0 +1,442 @@
+/*通用类*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	line-height: 21px
+}
+
+img {
+	border: none;
+	min-width: 100%;
+}
+
+a {
+	cursor: pointer;
+	color: #333;
+	text-decoration: none;
+	outline: none;
+}
+
+em {
+	font-style: normal;
+}
+
+.lt {
+	float: left;
+}
+
+.rt {
+	float: right;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+	padding: 0;
+	margin: 0;
+	list-style: none
+}
+
+ul {
+	list-style-type: none;
+}
+
+.clear {
+	clear: both
+}
+
+/*header 开始*/
+header {
+	height: 90px;
+	border-bottom: 2px solid #f1f1f1;
+}
+
+header .logo {
+	float: left;
+	height: 90px;
+	width: auto;
+	margin: 0 auto;
+}
+
+header .logo img {
+	width: auto;
+	height: 100%;
+}
+
+header .nav {
+	float: left;
+	width: 100%;
+	text-align: center;
+	height: 90px;
+	line-height: 90px;
+	background: #313;
+}
+
+header .nav a {
+	float: left;
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none
+}
+
+header .nav a:hover {
+	background: #FF916C
+}
+
+.banner {
+	background-size: cover;
+}
+
+.banner img {
+	width: 100%;
+
+	display: block;
+}
+.item img{
+	height: 260px!important;
+	object-fit: cover;
+}
+footer {
+	text-align: center;
+	color: #fff;
+	background: #313
+}
+
+footer p {
+	height: 70px;
+	line-height: 70px;
+}
+
+.Title {
+	font-size: 32px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+	height: 50px;
+	line-height: 50px;
+	margin: 20px 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.con .text {
+	font-size: 18px;
+	color: #333;
+	line-height: 26px;
+}
+
+.con .text p {
+	margin: 0 0 10px 0;
+}
+
+.Part1 {
+	padding-bottom: 40px
+}
+
+.part2 {
+	margin-bottom: 0px;
+}
+
+.part2 li {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.part2 li p {
+	font-size: 16px;
+	padding: 10px 0;
+	display: block;
+	background: #CCC;
+}
+
+.part2 li img {
+	height: 310px;
+}
+
+.container {
+	background: #f1f1f1;
+}
+
+.bj {
+	display: block;
+	width: 100%;
+	background: url(../images/bj.gif);
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.part3 li {
+	text-align: left;
+}
+
+.part3 li h3 {
+	font-size: 20px;
+	line-height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.part3 li p {
+	padding: 10px 15px;
+	box-sizing: border-box;
+	padding: 10px;
+	min-height: 210px;
+	line-height: 26px;
+	color: #333;
+	overflow: hidden;
+	font-size: 14px;
+}
+
+.part4 li {
+	height: 278px;
+
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.part4 li img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.part4 li img:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+.form_con {
+	margin: 30px 0;
+	font-size: 16px;
+}
+
+.form_con .phone {
+	width: 80%;
+	height: 36px;
+	padding: 0 15px;
+	box-sizing: border-box;
+	font-size: 14xp;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.form_con .phone.oi {
+	height: 120px;
+}
+
+.form_con button {
+	width: 140px;
+	height: 36px;
+	background: #666;
+	border: none;
+	color: #fff;
+}
+
+.ditu {
+	position: relative;
+}
+
+.xiaoqi {
+	position: absolute;
+	width: 50px;
+	top: 30px;
+	left: 20%;
+}
+
+.xiaoqi img {
+	width: 100%;
+}
+
+.xiaoqi1 {
+	animation: my1 2s ease-in-out infinite;
+	-webkit-animation: my1 ease-in-out 2s infinite;
+}
+
+.xiaoqi2 {
+	position: absolute;
+	width: 50px;
+	top: 30%;
+	left: 30%;
+	animation: my1 2s ease-in-out infinite;
+	-webkit-animation: my1 ease-in-out 2s infinite;
+}
+
+.xiaoqi3 {
+	position: absolute;
+	width: 50px;
+	top: 60%;
+	left: 80%;
+	animation: my1 2s ease-in-out infinite;
+	-webkit-animation: my1 ease-in-out 2s infinite;
+}
+.part3y ul li img{
+    height: 350px;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.smart-green {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+	background: #F8F8F8;
+	padding: 30px 30px 20px 30px;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #666;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.smart-green h1 {
+	font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: 20px 0px 20px 40px;
+	display: block;
+	margin: -30px -30px 10px -30px;
+	color: #FFF;
+	background: #313;
+	text-shadow: 1px 1px 1px #949494;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid #313;
+}
+
+.smart-green h1>span {
+	display: block;
+	font-size: 11px;
+	color: #FFF;
+}
+
+.smart-green label {
+	display: block;
+	margin: 0px 0px 5px;
+}
+
+.smart-green label>span {
+	float: left;
+	margin-top: 10px;
+	color: #5E5E5E;
+}
+
+.smart-green input[type="text"],
+.smart-green input[type="email"],
+.smart-green textarea,
+.smart-green select {
+	color: #555;
+	height: 30px;
+	line-height: 15px;
+	width: 100%;
+	padding: 0px 0px 0px 10px;
+	margin-top: 2px;
+	border: 1px solid #E5E5E5;
+	background: #FBFBFB;
+	outline: 0;
+	-webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+	box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+	font: normal 14px/14px Arial, Helvetica, sans-serif;
+}
+
+.smart-green textarea {
+	height: 100px;
+	padding-top: 10px;
+}
+
+
+.smart-green .button {
+	background-color:#313;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-border-radius: 5px;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #949494;
+}
+
+.smart-green .button:hover {
+	background-color: #313;
+}
+
+
+
+
+.san p{font-size: 16px;margin: 20px 0; padding: 20px;}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1000px) {
+	header .nav a {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width:746px) {
+
+	header .nav {
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	header .logo {
+		height: 50px;
+	}
+
+	header .nav a {
+		font-size: 14px;
+		width: auto;
+		margin: 0 5px;
+	}
+
+	.part2 li img {
+		height: auto;
+	}
+
+	.part4 li {
+		height: auto;
+	}
+
+	.Title {
+		font-size: 20px;
+	}
+
+	.text {
+		font-size: 14px;
+		line-height: 26px;
+	}
+	header {
+	    height: 50px;
+	    border-bottom: 2px solid #f1f1f1;
+	}
+	.smart-green {
+	    max-width: 80%;
+	    padding: 15px;
+	}
+}
+
+
